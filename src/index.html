@@ -3,12 +3,63 @@
   <head>
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" type="module"></script>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+    <header>
+      <div class="wrapper">
+        <div class="logo">
+          <p>CINE MAXIMO
+          <img style= width:60px; height:70px; src="img/icono.svg" alt="#"></p>
+       </div>
+        <div class="subtittle">
+         <hr>
+         <p>Separa tus entradas</p>
+         <hr>
+       </div>
+       </div>
+     </header>
+     <main>
+       <div class="primeraPagina" id= 'primeraPagina'>
+         <h1>NO TE QUEDES FUERA DE LA SALA!!</h1>
+         <br>
+         <p>Inicia sesión </p>
+         <p>Correo electronico
+         <input type="text" name="" id="email"> </p>
+         <p> Nombre de Usuario
+         <input type="text" name="" id="usuario"> </p>
+         <br>
+         <p> <a href="#">Aún no me he registrado</a> </p>
+         <p> <a href="#">Olvidé mi usuario</a> </p>
+         <br>
+         <button type="button" id="Siguiente">Siguiente</button>
+       </div>
+       <div class="segundaPagina" id='segundaPagina'>
+         <h1><div id="pagina2h1"></div></h1>
+        <br>
+         <p>Antes de continuar necesitamos validar tu metodo de pago</p>
+         <p>Por favor ingresa el número de tu tarjeta de credito acontinuación</p>
+         <p><input type="number" minlength="16" maxlength="16" id="numeroTarjeta"></p>
+         <br>
+         <p><button type="button" id="validarT">Validar</button></p>
+
+       </div>
+       <div class="terceraPagina" id='terceraPagina'>
+
+        <h1>habla becerra</h1>
+        <p><button type="button" id="continuar">Continuar</button></p>
+        <p> <button type="button" id="regresar">Regresar</button> </p>
+       </div>
+     </main>
+     <footer>
+       <br>
+         <a href="#">Servicios</a>
+         <a href="#">Ayuda</a>
+         <a href="#">Empleos</a>
+         <br>
+         <p>Todos los derechos reservados ~R~</p>
+         <br>
+     </footer>
   </body>
 </html>
