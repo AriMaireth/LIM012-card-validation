@@ -1,35 +1,152 @@
-*{margin:0; padding: 0;}
+*{margin:0; padding: 0;
+}
 
 body{
-background:#E55137 ; height:100%;
-}
-header{
-  width: 100%; overflow: hidden; background: #F80000; margin-bottom: 20px;
-}
-.wrapper{
-  width: 100%; max-width: 1500px; margin: auto; overflow: hidden;
-}
-header .logo{
-  font-weight: 900; font-size: 80px; font-family:'mingliu-extb', 'segoe script' ; color: #212121;
-  line-height:100px; float: none; text-align: center; margin-top: 10px;
-}
-header .subtittle{
-  background:  #23282B ; color:#FDF4E3 ;  font-size: 18px; line-height:20px;
-  float:none; text-align: center; padding: 10px 20px; margin-top: 10px;
-  font-family:'segoe script';
-}
-main .primeraPagina{
-  text-align: center; font-family: monospace; font-size: 17px; margin-top: 50px;
+  height:100%; margin:0;
+  background: #4DA0B0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, hsla(39, 64%, 52%, 0.562), hsla(190, 39%, 50%, 0.521)); 
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, hsla(39, 64%, 52%, 0.562), hsla(190, 39%, 50%, 0.521));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
- main .segundaPagina{
-text-align: center; font-family: monospace; font-size: 17px; margin-top: 50px;
+header{
+  width: 100%; max-width: 1500px; height: 300px; position: relative; overflow: hidden; margin: 0 auto; 
+  background: #4DA0B0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, hsla(39, 64%, 52%, 0.562), hsla(190, 39%, 50%, 0.521)), url(img/cinemaimagencopia.jpg); 
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, hsla(39, 64%, 52%, 0.562), hsla(190, 39%, 50%, 0.521)), url(img/cinemaimagencopia.jpg);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-main .terceraPagina{
-text-align: center; font-family: monospace; font-size: 17px; margin-top: 50px;
+
+.wrapper{
+  width: 100%; text-align: center; overflow: hidden; line-height: 100px;
+  color: #FFA07A; margin-top:50px; position: absolute; float: none;
+ 
+}
+
+.wrapper h1{
+  font-size: 90px; font-family:'Skranji'; letter-spacing: 10px;  text-shadow: -3px -3px 2px #000;
+}
+
+.wrapper h2{
+  font-size: 25px; font-family:'Skranji'; letter-spacing: 3px;  text-shadow: -4px -4px 3px #000;
+}
+
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+main .primeraPagina{
+  margin-top: 10px; padding-top: 35px; 
+}
+
+main .primeraPagina h1{
+  line-height: 50px; text-align: center; font-family: 'mingliu-extb'; font-size: 30px;
+  color: #282937 ; letter-spacing: 5px; 
+}
+
+form{
+  width: 360px; border: 2px solid hsla(39, 64%, 52%, 0.562); 
+  border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px;
+  box-shadow: 0 0 10px hsla(39, 64%, 52%, 0.562); margin: 60px auto; 
+  background: #E8CBC0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, hsla(229, 26%, 52%, 0.452), hsla(16, 47%, 83%, 0.479)); 
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, hsla(229, 26%, 52%, 0.452), hsla(16, 47%, 83%, 0.479));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+} 
+form input{
+  width: 280px; height: 35px; padding: 0px 10px; color: #191970; text-align: center;
+  margin: 10px 30px; border-radius: 10px; outline: none;
+}
+form button{
+  width: 160px; height: 50px; text-align: center; margin: 20px 0px 20px 100px; 
+  border-radius: 6px; color: hsla(229, 26%, 52%, 0.452); font-family:'Skranji';
+  background-color:white; font-weight: bold; text-shadow: -1px -1px 0px #000;
+  font-size: 25px; outline: none; border: 2px solid hsla(39, 64%, 52%, 0.562);
+  box-shadow: 0px 3px 0px hsla(39, 64%, 52%, 0.562);
+}
+form a{
+  text-decoration: none; display: inline-block; margin: 0px 0px 0px 190px;
+  color: #191970;
+}
+.primeraPagina h2{
+  text-align: center; font-family:'Skranji'; color: #E9967A; letter-spacing: 3px;
+  text-shadow: -3px -3px 2px #000; font-size: 35pt; margin: 20px 10px 0px 0px;
+}
+ main .segundaPagina h1{
+  line-height: 50px; text-align: center; font-family: 'mingliu-extb'; font-size: 35px;
+  color: #282937 ; letter-spacing: 5px; margin-top: 10px; padding-top: 35px; 
+}
+main .segundaPagina{
+  font-family:Helvetica; text-align: center; font-size:20px; color: #282937;
+}
+.segundaPagina form{
+  font-family:'Skranji'; color: #E9967A; letter-spacing: 3px; margin: 60px auto; 
+  text-shadow: -3px -3px 2px #000; font-size: 15pt; padding-top: 35px;
+}
+form img{
+  height: 50px; 
+} 
+.terceraPagina form{
+  padding-top: 35px; padding-bottom: 10px; padding-left: 30px; padding-right: 30px;
+}
+form .pagina3h2{
+  text-align: center; font-family:'Skranji'; color: #E9967A; letter-spacing: 3px;
+  text-shadow: -4px -4px 3px #000; font-size: 35pt; margin: 20px 10px 0px 0px;
+}
+form .pagina3h1{
+  text-align: center; font-family: 'mingliu-extb'; font-size: 18px;
+  color: #282937; letter-spacing: 1px; background-color: white; 
+  border: 2px solid #E8CBC0; width: 80%; line-height: 40px; border-radius: 7px; margin:10px auto;
+}
+.tarjetaInvalida{
+  font-family:Helvetica; text-align: center; font-size:20px; color: #282937; 
+}
+#regresar{
+  width: 10%; height: 20%; text-align: center; overflow: hidden; margin-left: 8%;
+  border-radius: 6px; color: hsla(229, 26%, 52%, 0.452); font-family:'Skranji';
+  background-color:white; font-weight: bold; text-shadow: -1px -1px 0px #000;
+  font-size: 25px; outline: none; border: 2px solid hsla(39, 64%, 52%, 0.562);
+  box-shadow: 0px 3px 0px hsla(39, 64%, 52%, 0.562); margin-bottom: 10%; margin-top: 5%;
+
+}
+#continuar{
+  width: 10%; height: 20%; text-align: center; overflow: hidden; margin-left: 36%;
+  border-radius: 6px; color: hsla(229, 26%, 52%, 0.452); font-family:'Skranji';
+  background-color:white; font-weight: bold; text-shadow: -1px -1px 0px #000;
+  font-size: 25px; outline: none; border: 2px solid hsla(39, 64%, 52%, 0.562);
+  box-shadow: 0px 3px 0px hsla(39, 64%, 52%, 0.562); margin-bottom: 10%; margin-top: 5%;
 }
 footer{
   width: 100%; float:none; clear: both; box-shadow: 0px 0px 2px 2px;
-  text-align: center; background: #E72512; overflow: hidden; position: absolute;
-  bottom: 3px; height: 70px;
+  text-align: center; overflow: hidden; position: absolute;
+  height: 50px; font-size: 10px; margin:0; margin-bottom: 0px;
+  background: #E8CBC0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, hsla(229, 26%, 52%, 0.452), hsla(16, 47%, 83%, 0.479)); 
+   /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, hsla(229, 26%, 52%, 0.452), hsla(16, 47%, 83%, 0.479));
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+footer a{
+  font-size: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: #D36E70;
+  padding: 0px 90px;
+  line-height: normal;
+  
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  
+}
+
+input[type=number] { -moz-appearance:textfield; }

@@ -1,65 +1,70 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="index.js" type="module"></script>
-  </head>
-  <body>
-    <header>
-      <div class="wrapper">
-        <div class="logo">
-          <p>CINE MAXIMO
-          <img style= width:60px; height:70px; src="img/icono.svg" alt="#"></p>
-       </div>
-        <div class="subtittle">
-         <hr>
-         <p>Separa tus entradas</p>
-         <hr>
-       </div>
-       </div>
-     </header>
-     <main>
-       <div class="primeraPagina" id= 'primeraPagina'>
-         <h1>NO TE QUEDES FUERA DE LA SALA!!</h1>
-         <br>
-         <p>Inicia sesión </p>
-         <p>Correo electronico
-         <input type="text" name="" id="email"> </p>
-         <p> Nombre de Usuario
-         <input type="text" name="" id="usuario"> </p>
-         <br>
-         <p> <a href="#">Aún no me he registrado</a> </p>
-         <p> <a href="#">Olvidé mi usuario</a> </p>
-         <br>
-         <button type="button" id="Siguiente">Siguiente</button>
-       </div>
-       <div class="segundaPagina" id='segundaPagina'>
-         <h1><div id="pagina2h1"></div></h1>
-        <br>
-         <p>Antes de continuar necesitamos validar tu metodo de pago</p>
-         <p>Por favor ingresa el número de tu tarjeta de credito acontinuación</p>
-         <p><input type="number" minlength="16" maxlength="16" id="numeroTarjeta"></p>
-         <br>
-         <p><button type="button" id="validarT">Validar</button></p>
 
-       </div>
-       <div class="terceraPagina" id='terceraPagina'>
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" type="module"></script>
+  <link href="https://fonts.googleapis.com/css?family=Skranji&display=swap" rel="stylesheet">
+</head>
 
-        <h1>habla becerra</h1>
-        <p><button type="button" id="continuar">Continuar</button></p>
-        <p> <button type="button" id="regresar">Regresar</button> </p>
-       </div>
-     </main>
-     <footer>
-       <br>
-         <a href="#">Servicios</a>
-         <a href="#">Ayuda</a>
-         <a href="#">Empleos</a>
-         <br>
-         <p>Todos los derechos reservados ~R~</p>
-         <br>
-     </footer>
-  </body>
+<body>
+  <header>
+    <div class="wrapper">
+      <h1>CINE MÁXIMO</h1>
+      <h2>EL SÉPTIMO ARTE</h2>
+    </div>
+  </header>
+  <main>
+    <div class="primeraPagina" id="primeraPagina">
+      <h1>SEPARA Y COMPRA TUS ENTRADAS <br> ¡¡NO TE QUEDES FUERA DE LA SALA!!</h1>
+      <form>
+        <h2>Iniciar Sesión </h2>
+        <input type="text" name="" id="usuario" placeholder="Nombre de Usuario">
+        <input type="password" name="" id="contraseña" placeholder="Ingrese su contraseña">
+        <a href="#">Olvidé mi contraseña</a>
+        <button type="button" id="Siguiente">Continuar</button> <br>
+      </form>
+    </div>
+    <div class="segundaPagina" id="segundaPagina">
+      <h1>
+        <div id="pagina2h1"></div>
+      </h1><br>
+      <p>Antes de continuar necesitamos validar tu metodo de pago</p>
+      <p>Por favor ingresa el número de tu tarjeta de credito acontinuación </p>
+      <p>y luego podrás apartar tus asientos favoritos, comprar tus entradas o combos y muchas cosas más</p>
+      <form>
+        <p>4556 - 3646 - 0793 - 5616</p>
+        <input type="number" id="numeroTarjeta" placeholder="Inserte acá los 16 digitos de su tarjeta.">
+        <img src="img/tarjetas.png" alt="tarjetas">
+        <button type="button" id="validarT">Validar</button>
+      </form>
+    </div>
+    <div class="terceraPagina" id="terceraPagina">
+      <form>
+        <h1>
+          <div id="pagina3h1" class="pagina3h1"></div>
+        </h1>
+        <h2>
+          <div id="pagina3h2" class="pagina3h2"></div>
+        </h2>
+      </form>
+      <p>
+        <div id="tarjetaInvalida" class="tarjetaInvalida"></div>
+      </p>
+      <button type="button" id="continuar">Continuar</button>
+      <button type="button" id="regresar">Regresar</button>
+    </div>
+  </main>
+  <footer>
+    <br>
+    <a href="#">Servicios</a>
+    <a href="#">Ayuda</a>
+    <a href="#">Empleos</a>
+    <br>
+    <h2 class="titulo-final">&copy; Arianadas | Ariannys Bastardo</h2>
+  </footer>
+</body>
+
 </html>
