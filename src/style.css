@@ -11,7 +11,7 @@ body{
 }
 
 header{
-  width: 100%; max-width: 1500px; height: 300px; position: relative; overflow: hidden; margin: 0 auto; 
+  width: 100%; height: 190px; position: relative; overflow: hidden; margin: 0 auto; 
   background: #4DA0B0;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, hsla(39, 64%, 52%, 0.562), hsla(190, 39%, 50%, 0.521)), url(img/cinemaimagencopia.jpg); 
   /* Chrome 10-25, Safari 5.1-6 */
@@ -19,18 +19,17 @@ header{
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.wrapper{
-  width: 100%; text-align: center; overflow: hidden; line-height: 100px;
-  color: #FFA07A; margin-top:50px; position: absolute; float: none;
- 
-}
-
 .wrapper h1{
-  font-size: 90px; font-family:'Skranji'; letter-spacing: 10px;  text-shadow: -3px -3px 2px #000;
+  font-family:'Skranji'; letter-spacing: 6px;  text-shadow: -3px -3px 2px #000;
+  color: #FFA07A; margin-top:6px; position: absolute; float: none; font-size: 80px;
+  width: 100%; text-align: center; overflow: hidden; line-height: 100px; padding-top: 10px;
 }
 
 .wrapper h2{
-  font-size: 25px; font-family:'Skranji'; letter-spacing: 3px;  text-shadow: -4px -4px 3px #000;
+  font-family:'bree serif'; text-shadow: -2px -2px 1px #000; letter-spacing: 2px;
+  color:#FFA07A ; margin-top:125px; position: absolute; float: none; font-size: 20px; 
+  width: 50%; overflow: hidden; line-height: 20px; margin-left: 26% ; text-align: center;
+  
 }
 
 input[type="number"]::-webkit-outer-spin-button, 
@@ -42,18 +41,18 @@ input[type="number"] {
     -moz-appearance: textfield;
 }
 main .primeraPagina{
-  margin-top: 10px; padding-top: 35px; 
+ padding-top: 60px; 
 }
 
 main .primeraPagina h1{
-  line-height: 50px; text-align: center; font-family: 'mingliu-extb'; font-size: 30px;
-  color: #282937 ; letter-spacing: 5px; 
+  line-height: 30px; text-align: center; font-family: 'mingliu-extb'; font-size: 30px;
+  color: #282937 ; letter-spacing: 3px; 
 }
 
-form{
-  width: 360px; border: 2px solid hsla(39, 64%, 52%, 0.562); 
+.primeraPagina form{
+  width: 360px; border: 2px solid hsla(39, 64%, 52%, 0.562); margin-left: auto; margin-right: auto;
   border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px;
-  box-shadow: 0 0 10px hsla(39, 64%, 52%, 0.562); margin: 60px auto; 
+  box-shadow: 0 0 10px hsla(39, 64%, 52%, 0.562); margin-top: 25px; margin-bottom: 10%; 
   background: #E8CBC0;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, hsla(229, 26%, 52%, 0.452), hsla(16, 47%, 83%, 0.479)); 
   /* Chrome 10-25, Safari 5.1-6 */
@@ -80,48 +79,64 @@ form a{
   text-shadow: -3px -3px 2px #000; font-size: 35pt; margin: 20px 10px 0px 0px;
 }
  main .segundaPagina h1{
-  line-height: 50px; text-align: center; font-family: 'mingliu-extb'; font-size: 35px;
-  color: #282937 ; letter-spacing: 5px; margin-top: 10px; padding-top: 35px; 
+  line-height: 30px; text-align: center ; font-family: 'mingliu-extb'; font-size: 40px;
+  color: #282937 ; letter-spacing: 3px;
 }
 main .segundaPagina{
-  font-family:Helvetica; text-align: center; font-size:20px; color: #282937;
+  font-family:Helvetica; text-align: center; font-size:20px; color: #282937; padding-top: 60px;
+}
+.segundaPagina h2{
+  text-align: center; font-family:'mingliu-extb'; color: #282937; font-size: 18px;
+   
 }
 .segundaPagina form{
-  font-family:'Skranji'; color: #E9967A; letter-spacing: 3px; margin: 60px auto; 
-  text-shadow: -3px -3px 2px #000; font-size: 15pt; padding-top: 35px;
+  width: 360px; border: 2px solid hsla(39, 64%, 52%, 0.562); margin-left: auto; margin-right: auto;
+  border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; padding-top: 20px;
+  box-shadow: 0 0 10px hsla(39, 64%, 52%, 0.562); margin-top: 25px; margin-bottom: 10%; 
+  background: #E8CBC0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, hsla(229, 26%, 52%, 0.452), hsla(16, 47%, 83%, 0.479)); 
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, hsla(229, 26%, 52%, 0.452), hsla(16, 47%, 83%, 0.479));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 }
 form img{
   height: 50px; 
 } 
 .terceraPagina form{
-  padding-top: 35px; padding-bottom: 10px; padding-left: 30px; padding-right: 30px;
+  width: 360px; border: 2px solid hsla(39, 64%, 52%, 0.562); padding-bottom: 20px;
+  border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px;
+  box-shadow: 0 0 10px hsla(39, 64%, 52%, 0.562); margin: 30px auto;  padding-top: 20px;
+  background: #E8CBC0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, hsla(229, 26%, 52%, 0.452), hsla(16, 47%, 83%, 0.479)); 
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, hsla(229, 26%, 52%, 0.452), hsla(16, 47%, 83%, 0.479));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 }
-form .pagina3h2{
-  text-align: center; font-family:'Skranji'; color: #E9967A; letter-spacing: 3px;
-  text-shadow: -4px -4px 3px #000; font-size: 35pt; margin: 20px 10px 0px 0px;
+.pagina3h1{
+  font-family:Helvetica; text-align: center; font-size:30px; color: #282937;
 }
-form .pagina3h1{
-  text-align: center; font-family: 'mingliu-extb'; font-size: 18px;
-  color: #282937; letter-spacing: 1px; background-color: white; 
-  border: 2px solid #E8CBC0; width: 80%; line-height: 40px; border-radius: 7px; margin:10px auto;
+.pagina3h2{
+text-align: center; font-family:'bree serif'; text-shadow: -2px -2px 1px #000; letter-spacing: 2px;
+color:#FFA07A ; font-size: 40px;
 }
+
 .tarjetaInvalida{
   font-family:Helvetica; text-align: center; font-size:20px; color: #282937; 
 }
 #regresar{
-  width: 10%; height: 20%; text-align: center; overflow: hidden; margin-left: 8%;
+  width: 12%; height: 20%; text-align: center; overflow: hidden; margin-left: 4%;
   border-radius: 6px; color: hsla(229, 26%, 52%, 0.452); font-family:'Skranji';
   background-color:white; font-weight: bold; text-shadow: -1px -1px 0px #000;
   font-size: 25px; outline: none; border: 2px solid hsla(39, 64%, 52%, 0.562);
-  box-shadow: 0px 3px 0px hsla(39, 64%, 52%, 0.562); margin-bottom: 10%; margin-top: 5%;
+  box-shadow: 0px 3px 0px hsla(39, 64%, 52%, 0.562); margin-bottom: 10%; margin-top: 3%;
 
 }
 #continuar{
-  width: 10%; height: 20%; text-align: center; overflow: hidden; margin-left: 36%;
+  width: 12%; height: 20%; text-align: center; overflow: hidden; margin-left: 36%;
   border-radius: 6px; color: hsla(229, 26%, 52%, 0.452); font-family:'Skranji';
   background-color:white; font-weight: bold; text-shadow: -1px -1px 0px #000;
   font-size: 25px; outline: none; border: 2px solid hsla(39, 64%, 52%, 0.562);
-  box-shadow: 0px 3px 0px hsla(39, 64%, 52%, 0.562); margin-bottom: 10%; margin-top: 5%;
+  box-shadow: 0px 3px 0px hsla(39, 64%, 52%, 0.562); margin-bottom: 10%; margin-top: 3%;
 }
 footer{
   width: 100%; float:none; clear: both; box-shadow: 0px 0px 2px 2px;
