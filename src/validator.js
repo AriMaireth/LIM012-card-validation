@@ -3,10 +3,10 @@ const validator = {
     let array1 = Array.from(numeroTarjetaV);
     let arrayRev = [];
     let sumaTotal = 0;
-    for (let i = array1.length - 1; i >= 0; i--) {
+    for (let i = array1.length - 1; i >= 0; i = i - 1) {
       arrayRev.push(array1[i]);
     }
-    for (let j = 0; j <= arrayRev.length - 1; j++) {
+    for (let j = 0; j <= arrayRev.length - 1; j = j + 1) {
       if (j % 2 == 0) {
        //aca me agarra las posiciones 0,2,4,6,8,10,12,14,16 posiciones pares
         sumaTotal += parseInt(arrayRev[j]);
